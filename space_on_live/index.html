@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy Policy | Space on Live - Ap Runner</title>
+<style>
+  :root {
+    --bg: #f7f8fb;
+    --card: #ffffff;
+    --text: #1f2937;
+    --muted: #6b7280;
+    --border: #e5e7eb;
+    --accent: #111827;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    line-height: 1.75;
+  }
+  .wrap { max-width: 860px; margin: 0 auto; padding: 40px 20px 80px; }
+  .card {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 20px;
+    padding: 32px;
+    box-shadow: 0 8px 30px rgba(0,0,0,0.04);
+  }
+  h1 { font-size: 1.9rem; margin: 0 0 8px; color: var(--accent); }
+  .subtitle { color: var(--muted); margin-bottom: 20px; font-size: 0.98rem; }
+  h2 { margin-top: 30px; margin-bottom: 10px; font-size: 1.2rem; color: var(--accent); }
+  h3 { margin-top: 18px; margin-bottom: 6px; font-size: 1.02rem; color: var(--accent); }
+  p, li { font-size: 1rem; }
+  ul { margin: 10px 0 0 20px; padding: 0; }
+  .ident {
+    margin: 0 0 8px;
+    padding: 16px 18px;
+    background: #f9fafb;
+    border: 1px solid var(--border);
+    border-radius: 12px;
+  }
+  .ident dl { margin: 0; display: grid; grid-template-columns: max-content 1fr; gap: 6px 16px; }
+  .ident dt { color: var(--muted); font-size: 0.95rem; }
+  .ident dd { margin: 0; font-size: 0.98rem; }
+  footer { margin-top: 22px; color: var(--muted); font-size: 0.92rem; }
+  a { color: #1d4ed8; }
+  @media (max-width: 640px) {
+    .card { padding: 22px; }
+    h1 { font-size: 1.55rem; }
+    .ident dl { grid-template-columns: 1fr; gap: 2px; }
+    .ident dd { margin-bottom: 8px; }
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+<div class="card">
+
+<h1>Privacy Policy</h1>
+<p class="subtitle">For the mobile app &ldquo;Space on Live&rdquo;</p>
+
+<div class="ident">
+  <dl>
+    <dt>App name</dt><dd>Space on Live</dd>
+    <dt>Developer name</dt><dd>Ap Runner</dd>
+  </dl>
+</div>
+
+<p>Ap Runner (&ldquo;we&rdquo;) provides the mobile application &ldquo;Space on Live&rdquo; (the &ldquo;App&rdquo;) for Android and iOS. The App is a 3D solar system viewer: it shows the Sun, the eight planets and the Moon at any date and time, eclipse shadows, the International Space Station, and satellites in orbit around the Earth. This Privacy Policy explains how information is handled in the App.</p>
+
+<h2>1. Information We Collect</h2>
+<h3>Personally identifiable information</h3>
+<p>The App does not collect personally identifiable information such as your name, address, phone number, or email address. The App has no account registration and no login, and we operate no server that receives data from the App.</p>
+<h3>Information collected for advertising</h3>
+<p>The App uses Google AdMob to display advertisements. AdMob is operated by Google and, when it serves an ad, it may automatically collect the following. This data is collected and processed by Google, not by us; we never receive it in a form that identifies you.</p>
+<ul>
+  <li>Advertising ID (Android Advertising ID / AAID, or Apple Identifier for Advertisers / IDFA)</li>
+  <li>Device information (OS version, device model, language settings)</li>
+  <li>Approximate location derived from IP address</li>
+  <li>Ad interaction data such as impressions and clicks</li>
+</ul>
+<p>We do not operate any server that receives data from the App, and we do not combine advertising data with anything else the App holds. Your display settings and the orbital data cached on your device are never sent to the advertising service.</p>
+
+<h2>2. Camera (AR Mode)</h2>
+<p>The App offers an optional AR mode that places the solar system in the space around you, so it needs access to the camera. How the camera is handled:</p>
+<ul>
+  <li>The camera image is used <strong>on your device, in real time</strong>, only as the live background behind the 3D scene, together with the surface and motion tracking provided by ARCore (Android) or ARKit (iOS).</li>
+  <li><strong>No camera image, photo, video, or scan of your surroundings is ever recorded, stored, or transmitted.</strong> Each frame is drawn on screen and then discarded.</li>
+  <li>The camera is used only while AR mode is open. It is released when you leave AR mode or the App goes to the background.</li>
+  <li>The App does not perform face detection, object recognition, or any analysis of the people or places in view.</li>
+  <li>You can revoke camera access at any time in your device settings. AR mode will then be unavailable, but every other feature of the App keeps working.</li>
+</ul>
+<p>AR mode requires ARCore-capable hardware on Android and an ARKit-capable device on iOS. It is optional; the App is fully usable without it.</p>
+
+<h2>3. Location</h2>
+<p>The App does not request or use your device&rsquo;s location. Positions of the planets, the Moon, the ISS, and satellites are computed from the date and time alone, as seen from the centre of the Earth or from the scene camera you control. Latitude and longitude shown in the App are the ground track of the spacecraft being displayed, not yours. (As noted in section 1, advertising services may still derive an approximate location from your IP address.)</p>
+
+<h2>4. Network Use</h2>
+<p>The solar system, eclipse calculations, and 3D models run entirely offline on your device. The App connects to the internet only for the following:</p>
+<ul>
+  <li><strong>Orbital data.</strong> The App downloads publicly available orbital elements (TLE / GP data) for the ISS and for active satellites from <a href="https://celestrak.org/" target="_blank" rel="noopener">CelesTrak</a>. These are plain GET requests for public orbital data only. They contain no personal information, no identifier created by the App, and no camera or location data, and nothing about you is sent with them. As with any web request, CelesTrak receives your IP address and standard connection information; please refer to the <a href="https://celestrak.org/usage-policy.php" target="_blank" rel="noopener">CelesTrak usage policy</a>. The App requests this data at most once every 2 hours and 5 minutes, and it does not retry automatically after a failure. A snapshot of this public data is also bundled with the App, so the satellite view works on first launch and offline; when there is no connection, the App uses that snapshot or the copy saved on your device.</li>
+  <li><strong>Advertising.</strong> Communication performed by Google AdMob, as described in section 1.</li>
+  <li><strong>Links you tap.</strong> Opening a store page or an external reference link hands the address to your browser or store app, which then applies its own privacy policy.</li>
+</ul>
+<p>The 3D scene is rendered inside a WebView that loads only files bundled with the App, served from your device over a local address (127.0.0.1) that is not reachable from outside your device. No web page from the internet is loaded into it.</p>
+
+<h2>5. Purpose of Use</h2>
+<ul>
+  <li>To display the current and requested positions of solar system bodies and satellites</li>
+  <li>To remember your display settings between launches</li>
+  <li>To deliver and display advertisements within the App</li>
+  <li>To measure ad performance and detect invalid clicks</li>
+  <li>To improve the quality of the App and fix defects</li>
+</ul>
+
+<h2>6. Data Stored on Your Device</h2>
+<p>The following is stored only on your device, is never transmitted to our servers or to any third party, and is deleted when you uninstall the App:</p>
+<ul>
+  <li>Your display settings (scale, orbit lines, labels, auto-rotation, starfield density, clock format, ISS update on launch)</li>
+  <li>Whether the first-launch gesture hint and scale hint have been shown</li>
+  <li>The downloaded public orbital data and the time it was last requested, so that the App does not download it again unnecessarily</li>
+  <li>Your advertising consent choices, and whether the review prompt has already been shown, so that you are not asked repeatedly</li>
+</ul>
+<p>You can clear your settings at any time from &ldquo;Reset settings&rdquo; on the App&rsquo;s settings screen. There is no account and no sign-in, so nothing you do in the App is linked to you.</p>
+
+<h2>7. Store Review Prompt</h2>
+<p>The App may ask you to rate it on the store, using the review feature provided by the operating system (Google Play In-App Review or Apple SKStoreReviewController). Whether you have been shown the prompt is recorded only on your device; we do not receive your rating or review text in any form that identifies you.</p>
+
+<h2>8. Provision to Third Parties</h2>
+<p>We do not provide user information to third parties, except where disclosure is required by law. For how advertising data is handled, please refer to:</p>
+<ul>
+  <li>Google Privacy Policy: <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">https://policies.google.com/privacy</a></li>
+  <li>How Google uses information from sites or apps that use our services: <a href="https://policies.google.com/technologies/partner-sites" target="_blank" rel="noopener">https://policies.google.com/technologies/partner-sites</a></li>
+</ul>
+
+<h2>9. Consent for Personalized Advertising</h2>
+<p>For users in the EEA, the UK, and Switzerland, the App requests consent for personalized advertising through Google&rsquo;s User Messaging Platform (UMP). You can review and change your consent choices at any time from the App&rsquo;s settings screen.</p>
+<p>On iOS, the App asks for permission to track through the AppTrackingTransparency framework before the advertising identifier (IDFA) can be used for personalized advertising. If you decline, the App still works in full and ads are shown without personalization; only the relevance of the ads changes. Declining never disables the solar system, the ISS, the satellite view, or AR mode.</p>
+
+<h2>10. Opting Out of the Advertising ID</h2>
+<ul>
+  <li>Android: Settings &rarr; Privacy &rarr; Ads &rarr; &ldquo;Delete advertising ID&rdquo; or &ldquo;Reset advertising ID&rdquo; (menu names may vary by device)</li>
+  <li>iOS: Settings &rarr; Privacy &amp; Security &rarr; Tracking &rarr; turn off &ldquo;Allow Apps to Request to Track&rdquo;</li>
+</ul>
+
+<h2>11. Children&rsquo;s Privacy</h2>
+<p>The App is not directed to children under 13, and we do not knowingly collect personal information from children under 13. If we learn that such information has been collected, we will take steps to delete it. If you believe a child has provided us with personal information, please contact us at the address in section 16.</p>
+
+<h2>12. Disclaimer Regarding App Content</h2>
+<p>The App is an educational and entertainment astronomy viewer. Positions, distances, phases, eclipse times, and satellite tracks are <strong>calculated approximations, not navigational, observational, or operational data</strong>, and must not be relied upon for navigation, aviation, spacecraft operations, or any purpose where an error could cause harm or loss.</p>
+<p>Planetary and lunar positions are computed with the Astronomy Engine library. Satellite and ISS positions are computed with the SGP4 model from public orbital elements published by CelesTrak, which reflect the state of the orbit at a past observation time; manoeuvres, atmospheric drag, and the age of the data all introduce error, and the App therefore shows satellite positions only within a few days of each observation time. Sizes, distances, and orbits are frequently shown at an adjusted scale so that they are visible on screen; the &ldquo;real scale&rdquo; mode makes distances and radii proportional, but the App is a visualisation, not a scientific instrument.</p>
+<p>The 3D models and surface images are illustrative. When you approach the International Space Station, the App shows a detailed model derived from <a href="https://www.nasa.gov/3d-resources/" target="_blank" rel="noopener">NASA 3D Resources</a>, reduced in polygon count and texture size for mobile display; elsewhere, where the station appears at a small size, it shows a simplified model of our own. Neither reproduces the current configuration, attitude, or solar array angles of the real station. Planet and moon surfaces use fixed texture images, so clouds, weather, solar activity, and the atmospheric features of the gas giants are not live observations, and the background stars are decorative rather than the real sky.</p>
+<p>The App is not affiliated with, endorsed by, or sponsored by NASA, CelesTrak, Celestrak LLC, the International Space Station partner agencies, or any satellite operator or space agency. Organisation, mission, and satellite names are used solely for identification and descriptive purposes and remain the property of their respective holders. While we strive for accuracy, the App does not guarantee that its content or its data is complete, current, or free from error.</p>
+<p>Attribution for third-party material used in the App, including the NASA and Solar System Scope imagery and the open-source libraries, is shown in full inside the App under &ldquo;How to use and about the display&rdquo;.</p>
+
+<h2>13. Your Rights</h2>
+<p>Because the App has no account and no server of ours, we hold no personal data about you that we could look up, export, or delete on request. You remain in control of everything the App touches:</p>
+<ul>
+  <li>Clear everything stored on your device with &ldquo;Reset settings&rdquo; in the App, or by uninstalling the App.</li>
+  <li>Withdraw or change your advertising consent at any time from the App&rsquo;s settings screen, and reset or delete your advertising ID from your device settings as described in section 10.</li>
+  <li>Revoke camera access at any time from your device settings.</li>
+</ul>
+<p>Depending on where you live, you may have rights of access, correction, deletion, objection, or portability regarding data held by the advertising provider. Because that data is held by Google rather than by us, please exercise those rights through the Google links in section 8, or contact us at the address in section 16 and we will help where we can.</p>
+
+<h2>14. Security</h2>
+<p>We take appropriate measures to prevent unauthorized access, loss, alteration, or leakage of the information handled by the App. Data the App stores stays on your device, and the App uses encrypted HTTPS connections for the requests described in section 4.</p>
+
+<h2>15. Changes to This Policy</h2>
+<p>This Policy may be revised without prior notice due to changes in laws or in the App&rsquo;s features. The revised policy takes effect once posted on this page, and the effective date below is updated at the same time. Where a change materially affects how your information is handled, we will seek your consent again in the App if the law requires it.</p>
+
+<h2>16. Contact</h2>
+<ul>
+  <li>Developer: Ap Runner</li>
+  <li>Email: <a href="mailto:weblab.100@gmail.com">weblab.100@gmail.com</a></li>
+</ul>
+
+<footer>Effective date: September 18, 2026<br>Last updated: September 18, 2026</footer>
+
+</div>
+</div>
+</body>
+</html>
