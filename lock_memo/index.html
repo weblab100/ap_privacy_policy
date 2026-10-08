@@ -75,7 +75,7 @@
 
 <h2>1. Summary</h2>
 <ul>
-  <li><strong>Your memos and photos never leave your device.</strong> Memos are written, drawn, and set as your wallpaper entirely on your device. We have no server that receives your memos or photos.</li>
+  <li><strong>Your memos and photos stay on your device.</strong> Memos are written, drawn, and set as your wallpaper entirely on your device. The App does not send your memos or photos to us or to anyone else, and we have no server that receives them. If you have turned on Android&rsquo;s backup, Android may include them in your own Google account backup (see section 7).</li>
   <li>There is no account registration and no login. We do not collect your name, email address, phone number, or address.</li>
   <li>Ads are served by Google AdMob, which may collect the advertising ID and device information. Ad services never receive your memos or your photos.</li>
   <li>Purchases are processed by Google Play. We never receive your payment card or billing details.</li>
@@ -98,8 +98,8 @@
 
 <h2>3. Your Memos and the Lock Screen</h2>
 <ul>
-  <li><strong>Writing memos.</strong> The text you write, its style (font, colors, frame, size), its position, and the state of checklist items are stored only on your device. They are never uploaded to us or to any third party.</li>
-  <li><strong>Setting the lock screen wallpaper.</strong> When you tap the lock button, the App draws your memo and its background into an image on your device and sets it as your <strong>lock screen</strong> wallpaper through Android&rsquo;s wallpaper service. This uses the &ldquo;set wallpaper&rdquo; permission, which Android grants without a prompt. The App never changes your home screen wallpaper. When you edit a memo that is on your lock screen, the App redraws the wallpaper on your device.</li>
+  <li><strong>Writing memos.</strong> The text you write, its style (font, colors, frame, size), its position, and the state of checklist items are stored only on your device. The App does not upload them to us or to any third party.</li>
+  <li><strong>Setting the lock screen wallpaper.</strong> When you tap the lock button, the App draws your memo and its background into an image on your device and sets it as your <strong>lock screen</strong> wallpaper through Android&rsquo;s wallpaper service. This uses the &ldquo;set wallpaper&rdquo; permission, which Android grants without a prompt. The App does not change your home screen wallpaper. When you edit a memo that is on your lock screen, the App redraws the wallpaper on your device.</li>
   <li><strong>Visible to anyone who sees your phone.</strong> A memo on your lock screen can be read without unlocking your device. Please avoid putting passwords, personal numbers, or other sensitive information in a memo you place there.</li>
   <li><strong>Removing it from the lock screen.</strong> &ldquo;Take off the lock screen&rdquo; clears the App&rsquo;s lock screen wallpaper, and your lock screen then shows the same wallpaper as your home screen. Because Android does not let apps read your previous lock screen wallpaper, the App cannot read, copy, or restore it.</li>
   <li><strong>Reading the screen size.</strong> To draw the wallpaper at the correct size, the App reads your screen size and how much your device enlarges wallpapers. This is used only for drawing and is not stored or sent.</li>
@@ -110,9 +110,9 @@
 <p>You can use one of your photos as the background of a memo. How it is handled:</p>
 <ul>
   <li><strong>Choosing a photo.</strong> You choose a photo with the picker provided by the operating system. The App can read only the photo you choose, not the rest of your library. The App does not use the camera or the microphone.</li>
-  <li><strong>Keeping a copy in the App.</strong> So that your memo keeps its background even if you later delete the original from your gallery, the App keeps a copy of the chosen photo in its own private storage, reduced to at most 2,560 pixels on each side and without location metadata. The copy is deleted when no memo uses it any longer. The original photo is never modified.</li>
+  <li><strong>Keeping a copy in the App.</strong> So that your memo keeps its background even if you later delete the original from your gallery, the App keeps a copy of the chosen photo in its own private storage, reduced to at most 2,560 pixels on each side. The App removes location metadata (where the photo was taken) from this copy. The copy is deleted when no memo uses it any longer. The App does not modify the original photo.</li>
   <li><strong>Placing a memo behind the subject (optional).</strong> If you turn on this effect, the App finds the main subject of the photo (for example a person, an animal, or an object) so that the memo can be drawn behind it. This uses Google&rsquo;s ML Kit Subject Segmentation and runs <strong>entirely on your device</strong>, in a separate process of the App. The model is downloaded by Google Play services; your photo is not sent. The result (a mask of the subject&rsquo;s shape) is stored next to the photo copy in the App&rsquo;s private storage. The App does not perform face recognition and does not identify people.</li>
-  <li><strong>ML Kit diagnostics.</strong> As described in <a href="https://developers.google.com/ml-kit/android-data-disclosure" target="_blank" rel="noopener">Google&rsquo;s ML Kit data disclosure</a>, ML Kit may send Google limited diagnostic and usage information, such as the device model, OS version, the App&rsquo;s package name, and performance metrics, to maintain and improve the service. This never includes your photos, the detected subject, or your memo text.</li>
+  <li><strong>ML Kit diagnostics.</strong> As described in <a href="https://developers.google.com/ml-kit/android-data-disclosure" target="_blank" rel="noopener">Google&rsquo;s ML Kit data disclosure</a>, ML Kit may send Google limited diagnostic and usage information, such as the device model, OS version, the App&rsquo;s package name, and performance metrics, to maintain and improve the service. According to Google, this does not include your photos, the detected subject, or your memo text.</li>
 </ul>
 
 <h2>5. Network Use</h2>
@@ -121,7 +121,7 @@
   <li><strong>Advertising.</strong> Communication performed by Google AdMob and Google&rsquo;s User Messaging Platform, as described in sections 2 and 9.</li>
   <li><strong>Purchases.</strong> Communication with Google Play to buy, verify, and restore purchases.</li>
   <li><strong>Subject detection model and diagnostics.</strong> Download of the Subject Segmentation model by Google Play services, and the ML Kit diagnostics described in section 4.</li>
-  <li><strong>Links you tap.</strong> Opening a store page, this policy, or an email to us hands the address to your browser, store app, or mail app, which then applies its own privacy policy.</li>
+  <li><strong>Links you tap.</strong> Opening a store page or this policy, sharing the App with a friend, or writing an email to us hands the address or text to your browser, store app, the app you share to, or your mail app, which then applies its own privacy policy. An email started from the App&rsquo;s Settings is prefilled with the App&rsquo;s version, your device model, and your Android version, to help us answer; you can delete them before sending.</li>
 </ul>
 
 <h2>6. Purpose of Use</h2>
@@ -137,12 +137,13 @@
 </ul>
 
 <h2>7. Data Stored on Your Device</h2>
-<p>The following is stored only on your device, is never transmitted to our servers or to any third party, and is deleted when you uninstall the App:</p>
+<p>The following is stored on your device, is not sent by the App to us or to any third party, and is deleted when you uninstall the App:</p>
 <ul>
   <li>Your memos: their text, style, position, background, and the state of checklist items</li>
   <li>Copies of the photos you chose as backgrounds, and the subject masks described in section 4</li>
   <li>Which memo is currently on your lock screen</li>
   <li>Whether hints and guides have already been shown</li>
+  <li>The language you chose in Settings</li>
   <li>Your advertising consent choices</li>
   <li>Purchase status, so that purchased features work offline</li>
 </ul>
