@@ -100,9 +100,10 @@
 <ul>
   <li><strong>Writing memos.</strong> The text you write, its style (font, colors, frame, size), its position, and the state of checklist items are stored only on your device. The App does not upload them to us or to any third party.</li>
   <li><strong>Setting the lock screen wallpaper.</strong> When you tap the lock button, the App draws your memo and its background into an image on your device and sets it as your <strong>lock screen</strong> wallpaper through Android&rsquo;s wallpaper service. This uses the &ldquo;set wallpaper&rdquo; permission, which Android grants without a prompt. The App does not change your home screen wallpaper. When you edit a memo that is on your lock screen, the App redraws the wallpaper on your device.</li>
+  <li><strong>Countdowns redrawn each day.</strong> If the memo on your lock screen has a countdown (for example &ldquo;12 days to go&rdquo;), the App redraws the wallpaper on your device shortly after the date changes, so the number of days stays current even when the App is not open. To do this, the App asks Android to wake it once the date has changed. This plays no sound and shows no notification or prompt. The App also uses the &ldquo;run at startup&rdquo; permission (RECEIVE_BOOT_COMPLETED), which Android grants without a prompt, to set up the daily redraw again after your device restarts, and it redraws when your device&rsquo;s date, time, or time zone changes. Redrawing happens entirely on your device and sends nothing. The daily redraw stops when the memo on your lock screen no longer has a countdown, when you take the memo off the lock screen, or when you uninstall the App. Depending on your device&rsquo;s battery settings, the redraw may be delayed; opening the App brings it up to date.</li>
   <li><strong>Visible to anyone who sees your phone.</strong> A memo on your lock screen can be read without unlocking your device. Please avoid putting passwords, personal numbers, or other sensitive information in a memo you place there.</li>
   <li><strong>Removing it from the lock screen.</strong> &ldquo;Take off the lock screen&rdquo; clears the App&rsquo;s lock screen wallpaper, and your lock screen then shows the same wallpaper as your home screen. Because Android does not let apps read your previous lock screen wallpaper, the App cannot read, copy, or restore it.</li>
-  <li><strong>Reading the screen size.</strong> To draw the wallpaper at the correct size, the App reads your screen size and how much your device enlarges wallpapers. This is used only for drawing and is not stored or sent.</li>
+  <li><strong>Reading the screen size.</strong> To draw the wallpaper at the correct size, the App reads your screen size and how much your device enlarges wallpapers. This is used only for drawing. The screen size is kept on your device so that a countdown can be redrawn while the App is closed, and it is never sent.</li>
   <li><strong>Saving as an image.</strong> When you choose &ldquo;Save as image&rdquo;, the App saves the memo as a PNG image in the &ldquo;Pictures/Lokmo&rdquo; folder of your device. It does not read, change, or delete other items in your photo library. The saved image is newly drawn by the App and carries no metadata such as location.</li>
 </ul>
 
@@ -126,7 +127,7 @@
 
 <h2>6. Purpose of Use</h2>
 <ul>
-  <li>To let you write memos and show them on your lock screen</li>
+  <li>To let you write memos and show them on your lock screen, and to keep countdowns on it up to date</li>
   <li>To keep your memos, photos, and settings when you return to the App</li>
   <li>To place a memo behind the subject of a photo when you turn this on</li>
   <li>To deliver and display advertisements within the App</li>
@@ -139,9 +140,10 @@
 <h2>7. Data Stored on Your Device</h2>
 <p>The following is stored on your device, is not sent by the App to us or to any third party, and is deleted when you uninstall the App:</p>
 <ul>
-  <li>Your memos: their text, style, position, background, and the state of checklist items</li>
+  <li>Your memos: their text, style, position, background, the state of checklist items, and countdown dates</li>
   <li>Copies of the photos you chose as backgrounds, and the subject masks described in section 4</li>
   <li>Which memo is currently on your lock screen</li>
+  <li>The screen size last used to draw the wallpaper, and whether a countdown needs redrawing each day (section 3)</li>
   <li>Whether hints and guides have already been shown</li>
   <li>The language you chose in Settings</li>
   <li>Your advertising consent choices</li>
@@ -214,7 +216,7 @@
   <li>Email: <a href="mailto:weblab.100@gmail.com">weblab.100@gmail.com</a></li>
 </ul>
 
-<footer>Effective date: October 8, 2026<br>Last updated: October 9, 2026</footer>
+<footer>Effective date: October 8, 2026<br>Last updated: October 10, 2026</footer>
 
 </div>
 
