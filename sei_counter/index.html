@@ -1,0 +1,662 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy Policy | 正の字カウンター - Ap Runner</title>
+<style>
+  :root {
+    --bg: #f7f8fb;
+    --card: #ffffff;
+    --text: #1f2937;
+    --muted: #6b7280;
+    --border: #e5e7eb;
+    --accent: #111827;
+    --ident-bg: #f9fafb;
+    --link: #1d4ed8;
+    --chip-on-bg: #111827;
+    --chip-on-text: #ffffff;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #0f1117;
+      --card: #171a23;
+      --text: #e5e7eb;
+      --muted: #9ca3af;
+      --border: #2a2f3c;
+      --accent: #f9fafb;
+      --ident-bg: #1d212c;
+      --link: #93b4ff;
+      --chip-on-bg: #f9fafb;
+      --chip-on-text: #111827;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial,
+      "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Noto Sans JP", "PingFang SC", "PingFang TC",
+      "Microsoft YaHei", "Microsoft JhengHei", sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    line-height: 1.75;
+  }
+  .wrap { max-width: 860px; margin: 0 auto; padding: 40px 20px 80px; }
+  .lang-nav { display: flex; flex-wrap: wrap; gap: 6px; margin: 0 0 16px; }
+  .lang-nav a {
+    display: inline-block;
+    padding: 6px 12px;
+    border: 1px solid var(--border);
+    border-radius: 999px;
+    background: var(--card);
+    color: var(--text);
+    font-size: 0.92rem;
+    text-decoration: none;
+  }
+  .lang-nav a[aria-current="true"] {
+    background: var(--chip-on-bg);
+    border-color: var(--chip-on-bg);
+    color: var(--chip-on-text);
+  }
+  .card {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 20px;
+    padding: 32px;
+    box-shadow: 0 8px 30px rgba(0,0,0,0.04);
+  }
+  .card + .card { margin-top: 24px; }
+  .js .card[hidden] { display: none; }
+  h1 { font-size: 1.9rem; margin: 0 0 8px; color: var(--accent); }
+  .subtitle { color: var(--muted); margin-bottom: 20px; font-size: 0.98rem; }
+  h2 { margin-top: 30px; margin-bottom: 10px; font-size: 1.2rem; color: var(--accent); }
+  h3 { margin-top: 18px; margin-bottom: 6px; font-size: 1.02rem; color: var(--accent); }
+  p, li { font-size: 1rem; }
+  ul { margin: 10px 0 0 20px; padding: 0; }
+  .ident {
+    margin: 0 0 8px;
+    padding: 16px 18px;
+    background: var(--ident-bg);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+  }
+  .ident dl { margin: 0; display: grid; grid-template-columns: max-content 1fr; gap: 6px 16px; }
+  .ident dt { color: var(--muted); font-size: 0.95rem; }
+  .ident dd { margin: 0; font-size: 0.98rem; }
+  footer { margin-top: 22px; color: var(--muted); font-size: 0.92rem; }
+  a { color: var(--link); overflow-wrap: anywhere; }
+  @media (max-width: 640px) {
+    .card { padding: 22px; }
+    h1 { font-size: 1.55rem; }
+    .ident dl { grid-template-columns: 1fr; gap: 2px; }
+    .ident dd { margin-bottom: 8px; }
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<nav class="lang-nav" aria-label="Language">
+  <a href="#ja" data-lang="ja" lang="ja">日本語</a>
+  <a href="#en" data-lang="en" lang="en">English</a>
+  <a href="#zh-Hans" data-lang="zh-Hans" lang="zh-Hans">简体中文</a>
+  <a href="#zh-Hant" data-lang="zh-Hant" lang="zh-Hant">繁體中文</a>
+</nav>
+
+<!-- ============================== 日本語 ============================== -->
+<section class="card" id="lang-ja" lang="ja">
+
+<h1>プライバシーポリシー</h1>
+<p class="subtitle">モバイルアプリ「正の字カウンター」</p>
+
+<div class="ident">
+  <dl>
+    <dt>アプリ名</dt><dd>正の字カウンター</dd>
+    <dt>開発者名</dt><dd>Ap Runner</dd>
+  </dl>
+</div>
+
+<p>Ap Runner（以下「当方」）は、Android および iOS 向けのモバイルアプリ「正の字カウンター」（以下「本アプリ」）を提供しています。本アプリは、ボタンをタップして数を数え、その数を「正」の字で表示するカウンターです。本プライバシーポリシーは、本アプリが表示する広告を含め、本アプリにおける情報の取り扱いについて説明するものです。</p>
+
+<h2>1. 概要</h2>
+<ul>
+  <li><strong>数えた数は外部に送信されません。</strong>カウントは端末のメモリ上でのみ扱い、保存もしません。当方は本アプリからデータを受け取るサーバーを運用していません。</li>
+  <li>アカウント登録・ログインはありません。氏名・メールアドレス・電話番号・住所などは取得しません。</li>
+  <li>広告は Google AdMob により配信され、広告 ID や端末情報が収集されることがあります。数えた数が広告サービスに渡ることはありません。</li>
+  <li>本アプリは無料で、アプリ内課金はありません。</li>
+</ul>
+
+<h2>2. 取得する情報</h2>
+<h3>個人を特定できる情報</h3>
+<p>本アプリは、氏名・住所・電話番号・メールアドレスなど、個人を特定できる情報を取得しません。アカウント登録やログインの機能はなく、当方は本アプリからデータを受け取るサーバーを運用していません。</p>
+<h3>広告のために収集される情報</h3>
+<p>本アプリは広告の表示に Google AdMob を利用しています。AdMob は Google が運営しており、広告を配信する際に次の情報を自動的に収集することがあります。これらは当方ではなく Google が収集・処理するもので、当方が個人を特定できる形で受け取ることはありません。</p>
+<ul>
+  <li>広告 ID（Android の広告 ID）</li>
+  <li>端末情報（OS のバージョン、機種、言語設定）</li>
+  <li>IP アドレスから推定されるおおよその位置情報</li>
+  <li>広告の表示回数やタップなどの操作データ</li>
+</ul>
+<p>本アプリは、カメラ・写真・位置情報・連絡先・マイクなど、端末の機能や情報へのアクセス許可を求めません。</p>
+
+<h2>3. カウントについて</h2>
+<p>数えた数と「正」の字の記録は、アプリを使っている間だけ端末のメモリ上に保持されます。端末に保存されることはなく、アプリを完全に終了すると 0 に戻ります。外部に送信されることもありません。</p>
+
+<h2>4. 端末内に保存する情報</h2>
+<p>次の情報は端末内にのみ保存され、当方のサーバーや第三者に送信されることはありません。本アプリをアンインストールすると削除されます。</p>
+<ul>
+  <li>テーマの設定（ダークモード／ライトモード）</li>
+  <li>本アプリの起動回数と、カウントを増やした・減らした操作の回数（評価のお願いを表示する時期を判断するため。数えた数そのものは保存しません）</li>
+  <li>評価のお願いを表示したかどうか、「あとで」を選んだ回数と日時</li>
+  <li>設定画面を開いた回数（全画面広告を数回に 1 回だけ表示するため）</li>
+  <li>広告に関する同意の選択内容（Google の User Messaging Platform が保存します）</li>
+</ul>
+
+<h2>5. 通信について</h2>
+<p>カウント機能はオフラインで動作します。本アプリがインターネットに接続するのは次の場合だけです。</p>
+<ul>
+  <li><strong>広告。</strong>Google AdMob および Google の User Messaging Platform による通信です（第 2 条・第 8 条）。全画面広告を読み込む前に、端末がネットワークに接続しているかどうかを端末内で確認しますが、この確認によって情報が送信されることはありません。</li>
+  <li><strong>リンクを開いたとき。</strong>本ポリシーなどのリンクをタップすると、そのアドレスがブラウザに渡され、以降はブラウザ側のプライバシーポリシーが適用されます。</li>
+</ul>
+
+<h2>6. 利用目的</h2>
+<ul>
+  <li>数を数え、「正」の字で表示するため</li>
+  <li>テーマの設定を記憶するため</li>
+  <li>評価のお願いを適切な時期に一度だけ表示するため</li>
+  <li>全画面広告を設定画面を開く数回に 1 回だけ表示するため</li>
+  <li>本アプリ内で広告を配信・表示するため</li>
+  <li>広告の効果測定や不正なクリックの検出のため</li>
+  <li>お問い合わせに対応するため</li>
+  <li>本アプリの品質向上と不具合の修正のため</li>
+</ul>
+
+<h2>7. ストア評価のお願い</h2>
+<p>本アプリは、OS が提供する評価機能（Google Play In-App Review または Apple SKStoreReviewController）を使い、ストアでの評価をお願いすることがあります。表示したかどうかは端末内にのみ記録され、当方があなたの評価やレビューの内容を個人を特定できる形で受け取ることはありません。</p>
+
+<h2>8. 広告と同意</h2>
+<p>EEA（欧州経済領域）、英国、スイスのユーザー、その他法令で求められる地域のユーザーに対しては、Google の User Messaging Platform（UMP）を通じて、広告のための同意を初回起動時にお願いします。同意の内容を変更したい場合は、端末の設定から本アプリのデータを消去するか、本アプリを再インストールしてください。次回起動時に同意の画面が再び表示されます。</p>
+<p>iOS では、本アプリは App Tracking Transparency によるトラッキングの許可を求めません。そのため、Apple の広告識別子（IDFA）は使用されず、IDFA によるパーソナライズ広告は表示されません。</p>
+<p>同意しない場合や同意を取り消した場合でも、カウント機能はすべて使えます。</p>
+<h3>管理者</h3>
+<p>本アプリ自体が扱う限られた情報の管理者は Ap Runner です（連絡先は第 15 条）。AdMob および User Messaging Platform を通じて Google が収集するデータについては、Google が独立した管理者となり、<a href="https://policies.google.com/privacy?hl=ja" target="_blank" rel="noopener">Google プライバシーポリシー</a>および <a href="https://business.safety.google/adscontrollerterms/" target="_blank" rel="noopener">Google 広告の管理者間データ保護条項</a>に従って取り扱われます。</p>
+<h3>法的根拠（EEA・英国・スイス）</h3>
+<ul>
+  <li><strong>同意</strong>（GDPR 第 6 条 1 項 (a)）：広告のための端末への情報の保存・読み取り、および広告 ID の利用を含むパーソナライズ広告。</li>
+  <li><strong>正当な利益</strong>（GDPR 第 6 条 1 項 (f)）：同意がない場合の非パーソナライズ広告・制限付き広告の表示、広告配信の測定、不正・無効なクリックの検出。当方の利益は本アプリを無料で提供し続けることです。いつでも当方に連絡して異議を申し立てることができます。</li>
+  <li>カウントと端末内の設定の保存は、すべて端末内で完結しており、当方による個人データの処理は伴いません。</li>
+</ul>
+<h3>国外への移転</h3>
+<p>Google は広告データを、米国を含むあなたの居住国以外で処理することがあります。Google は EU–米国データプライバシーフレームワーク（英国・スイスへの拡張を含む）や欧州委員会の標準契約条項によって、こうした移転を保護しています。</p>
+<h3>保存期間</h3>
+<p>端末内に保存される情報（第 4 条）は、消去するかアンインストールするまで端末内に残ります。Google が収集する広告データは <a href="https://policies.google.com/technologies/retention?hl=ja" target="_blank" rel="noopener">Google のデータ保持ポリシー</a>に従って保持されます。当方宛てのメールは、返信に必要な期間だけ保管します。</p>
+
+<h2>9. 広告 ID の無効化</h2>
+<ul>
+  <li>Android：設定 &rarr; プライバシー &rarr; 広告 &rarr;「広告 ID を削除」または「広告 ID をリセット」（メニュー名は端末により異なります）</li>
+  <li>iOS：本アプリは IDFA を使用しません。他のアプリも含めて制限する場合は、設定 &rarr; プライバシーとセキュリティ &rarr; トラッキング &rarr;「App からのトラッキング要求を許可」をオフにしてください。</li>
+</ul>
+
+<h2>10. 第三者への提供</h2>
+<p>法令に基づく場合を除き、ユーザーの情報を第三者に提供することはありません。本アプリは次の外部サービスを利用しています。データの取り扱いについては各社のポリシーをご確認ください。</p>
+<ul>
+  <li>Google AdMob / User Messaging Platform（広告・同意）：<a href="https://policies.google.com/privacy?hl=ja" target="_blank" rel="noopener">https://policies.google.com/privacy</a></li>
+  <li>Google によるデータの使用（Google のサービスを使用するサイトやアプリから収集した情報）：<a href="https://policies.google.com/technologies/partner-sites?hl=ja" target="_blank" rel="noopener">https://policies.google.com/technologies/partner-sites</a></li>
+</ul>
+
+<h2>11. 子どものプライバシー</h2>
+<p>本アプリは 13 歳未満（EEA の一部など、現地の法令でより高い年齢が定められている場合はその年齢未満）の子どもを対象としておらず、そうした子どもの個人情報を意図して収集することはありません。収集されたことが分かった場合は、削除のための措置を講じます。子どもが個人情報を提供したと思われる場合は、第 15 条の連絡先までお知らせください。</p>
+
+<h2>12. あなたの権利</h2>
+<p>本アプリにはアカウントも当方のサーバーもないため、当方はご請求に応じて照会・提供・削除できるあなたの個人データを保有していません。本アプリが扱う情報は、すべてあなた自身で管理できます。</p>
+<ul>
+  <li>本アプリをアンインストールするか、端末の設定から本アプリのデータを消去すると、端末内の情報はすべて削除されます。</li>
+  <li>広告に関する同意は、第 8 条の方法でいつでも変更できます。広告 ID は第 9 条の方法でリセット・削除できます。</li>
+</ul>
+<p>お住まいの地域（EEA・英国の GDPR、米国カリフォルニア州の CCPA/CPRA など）によっては、広告事業者が保有するデータについて、アクセス・訂正・削除・異議・データポータビリティなどの権利を持つ場合があります。それらのデータは当方ではなく Google が保有しているため、第 10 条のリンクから権利を行使するか、第 15 条の連絡先までご連絡ください。可能な範囲でお手伝いします。当方があなたの個人情報を販売することはありません。</p>
+<p>同意の取り消しは、取り消し前に行われた処理の適法性に影響しません。EEA・英国・スイスにお住まいの方は、居住国または勤務国のデータ保護監督機関に苦情を申し立てる権利があります。</p>
+
+<h2>13. 安全管理</h2>
+<p>当方は、本アプリが扱う情報への不正アクセス・紛失・改ざん・漏えいを防ぐため、適切な措置を講じます。数えた数は端末の外に出ることはなく、広告サービスとの通信は暗号化された接続で行われます。</p>
+
+<h2>14. 本ポリシーの変更</h2>
+<p>法令の変更や本アプリの機能の変更に伴い、本ポリシーを改定することがあります。改定後のポリシーは本ページに掲載した時点で効力を生じ、下記の日付も同時に更新します。情報の取り扱いに重大な影響がある変更の場合は本ページの冒頭で明示し、法令で求められる場合は、広告については本アプリ内の同意画面で改めて同意をお願いします。</p>
+
+<h2>15. お問い合わせ</h2>
+<ul>
+  <li>開発者：Ap Runner</li>
+  <li>メール：<a href="mailto:weblab.100@gmail.com">weblab.100@gmail.com</a></li>
+</ul>
+
+<footer>制定日：2026 年 11 月 12 日<br>最終更新日：2026 年 11 月 12 日</footer>
+
+</section>
+
+<!-- ============================== English ============================== -->
+<section class="card" id="lang-en" lang="en">
+
+<h1>Privacy Policy</h1>
+<p class="subtitle">For the mobile app &ldquo;正の字カウンター&rdquo; (Sei Counter)</p>
+
+<div class="ident">
+  <dl>
+    <dt>App name</dt><dd>正の字カウンター (Sei Counter)</dd>
+    <dt>Developer name</dt><dd>Ap Runner</dd>
+  </dl>
+</div>
+
+<p>Ap Runner (&ldquo;we&rdquo;) provides the mobile application &ldquo;正の字カウンター&rdquo; (Sei Counter, the &ldquo;App&rdquo;) for Android and iOS. The App is a counter: you tap a button to count, and the count is shown as tally marks in the shape of the character &ldquo;正&rdquo;. This Privacy Policy explains how information is handled in the App, including the advertising the App shows.</p>
+
+<h2>1. Summary</h2>
+<ul>
+  <li><strong>Your count never leaves your device.</strong> The count is kept only in your device&rsquo;s memory and is not even saved. We have no server that receives data from the App.</li>
+  <li>There is no account registration and no login. We do not collect your name, email address, phone number, or address.</li>
+  <li>Ads are served by Google AdMob, which may collect the advertising ID and device information. Ad services never receive your count.</li>
+  <li>The App is free and has no in-app purchases.</li>
+</ul>
+
+<h2>2. Information We Collect</h2>
+<h3>Personally identifiable information</h3>
+<p>The App does not collect personally identifiable information such as your name, address, phone number, or email address. The App has no account registration and no login, and we operate no server that receives data from the App.</p>
+<h3>Information collected for advertising</h3>
+<p>The App uses Google AdMob to display advertisements. AdMob is operated by Google and, when it serves an ad, it may automatically collect the following. This data is collected and processed by Google, not by us; we never receive it in a form that identifies you.</p>
+<ul>
+  <li>Advertising ID (Android Advertising ID)</li>
+  <li>Device information (OS version, device model, language settings)</li>
+  <li>Approximate location derived from IP address</li>
+  <li>Ad interaction data such as impressions and clicks</li>
+</ul>
+<p>The App does not ask for access to your camera, photos, location, contacts, microphone, or any other device feature or data.</p>
+
+<h2>3. Your Count</h2>
+<p>The number you count and its tally marks are kept in your device&rsquo;s memory only while you use the App. They are never saved to your device, go back to 0 when you fully close the App, and are never sent anywhere.</p>
+
+<h2>4. Data Stored on Your Device</h2>
+<p>The following is stored only on your device, is never transmitted to our servers or to any third party, and is deleted when you uninstall the App:</p>
+<ul>
+  <li>Your theme setting (dark or light mode)</li>
+  <li>How many times you have opened the App and how many times you have counted up or down, to decide when to show the review prompt (the count itself is not saved)</li>
+  <li>Whether the review prompt has been shown, and how many times and when you chose &ldquo;Later&rdquo;</li>
+  <li>How many times you have opened the settings screen, so that a full-screen ad is shown only once every few times</li>
+  <li>Your advertising consent choices (stored by Google&rsquo;s User Messaging Platform)</li>
+</ul>
+
+<h2>5. Network Use</h2>
+<p>Counting works entirely offline. The App connects to the internet only for the following:</p>
+<ul>
+  <li><strong>Advertising.</strong> Communication performed by Google AdMob and Google&rsquo;s User Messaging Platform, as described in sections 2 and 8. Before loading a full-screen ad, the App checks on your device whether it is connected to a network; this check sends no information.</li>
+  <li><strong>Links you tap.</strong> Opening a link such as this policy hands the address to your browser, which then applies its own privacy policy.</li>
+</ul>
+
+<h2>6. Purpose of Use</h2>
+<ul>
+  <li>To count and show the count as tally marks</li>
+  <li>To remember your theme setting</li>
+  <li>To show the review prompt once, at a suitable time</li>
+  <li>To show a full-screen ad only once every few times you open the settings screen</li>
+  <li>To deliver and display advertisements within the App</li>
+  <li>To measure ad performance and detect invalid clicks</li>
+  <li>To respond to your inquiries</li>
+  <li>To improve the quality of the App and fix defects</li>
+</ul>
+
+<h2>7. Store Review Prompt</h2>
+<p>The App may ask you to rate it on the store, using the review feature provided by the operating system (Google Play In-App Review or Apple SKStoreReviewController). Whether you have been shown the prompt is recorded only on your device; we do not receive your rating or review text in any form that identifies you.</p>
+
+<h2>8. Advertising and Consent</h2>
+<p>For users in the EEA, the UK, and Switzerland, and where otherwise required by law, the App asks for your advertising consent through Google&rsquo;s User Messaging Platform (UMP) when you first open it. To change your choices, clear the App&rsquo;s data in your device settings or reinstall the App; the consent message is shown again the next time you open it.</p>
+<p>On iOS, the App does not ask for permission to track you through App Tracking Transparency. Apple&rsquo;s advertising identifier (IDFA) is therefore not used, and no ads are personalized with it.</p>
+<p>Refusing or withdrawing consent never limits counting.</p>
+<h3>Data controller</h3>
+<p>For the limited information the App itself handles, the controller is Ap Runner (contact details in section 15). Google acts as an independent controller for the data it collects through AdMob and the User Messaging Platform, under the <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google Privacy Policy</a> and the <a href="https://business.safety.google/adscontrollerterms/" target="_blank" rel="noopener">Google Ads Controller-Controller Data Protection Terms</a>.</p>
+<h3>Legal basis (EEA, UK and Switzerland)</h3>
+<ul>
+  <li><strong>Consent</strong> (GDPR Art. 6(1)(a)) for storing and reading information on your device for advertising and for personalized advertising, including the use of your advertising ID.</li>
+  <li><strong>Legitimate interests</strong> (GDPR Art. 6(1)(f)) for showing non-personalized or limited ads where you have not consented, and for measuring ad delivery and detecting fraud and invalid clicks. Our interest is to keep the App free of charge. You can object to this at any time by contacting us.</li>
+  <li>Counting, and on-device storage of your settings, involve no processing of personal data by us, as everything stays on your device.</li>
+</ul>
+<h3>International transfers</h3>
+<p>Google may process advertising data outside your country, including in the United States. Google relies on the EU&ndash;U.S. Data Privacy Framework (and its UK and Swiss extensions) and on the European Commission&rsquo;s Standard Contractual Clauses to protect such transfers.</p>
+<h3>Retention</h3>
+<p>Data stored on your device (section 4) stays there until you delete it or uninstall the App. Advertising data collected by Google is retained according to <a href="https://policies.google.com/technologies/retention" target="_blank" rel="noopener">Google&rsquo;s retention policy</a>. We keep emails you send us only as long as needed to answer them.</p>
+
+<h2>9. Opting Out of the Advertising ID</h2>
+<ul>
+  <li>Android: Settings &rarr; Privacy &rarr; Ads &rarr; &ldquo;Delete advertising ID&rdquo; or &ldquo;Reset advertising ID&rdquo; (menu names may vary by device)</li>
+  <li>iOS: The App does not use the IDFA. To limit it for other apps too, go to Settings &rarr; Privacy &amp; Security &rarr; Tracking and turn off &ldquo;Allow Apps to Request to Track&rdquo;.</li>
+</ul>
+
+<h2>10. Provision to Third Parties</h2>
+<p>We do not provide user information to third parties, except where disclosure is required by law. The App uses the following third-party services; please refer to their policies for how they handle data:</p>
+<ul>
+  <li>Google AdMob / User Messaging Platform (advertising and consent): <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">https://policies.google.com/privacy</a></li>
+  <li>How Google uses information from sites or apps that use our services: <a href="https://policies.google.com/technologies/partner-sites" target="_blank" rel="noopener">https://policies.google.com/technologies/partner-sites</a></li>
+</ul>
+
+<h2>11. Children&rsquo;s Privacy</h2>
+<p>The App is not directed to children under 13 (or under 16, or the age set by local law, where a higher age applies, such as in parts of the EEA), and we do not knowingly collect personal information from such children. If we learn that such information has been collected, we will take steps to delete it. If you believe a child has provided us with personal information, please contact us at the address in section 15.</p>
+
+<h2>12. Your Rights</h2>
+<p>Because the App has no account and no server of ours, we hold no personal data about you that we could look up, export, or delete on request. You remain in control of everything the App handles:</p>
+<ul>
+  <li>Remove everything the App stores on your device by uninstalling it or clearing its data in your device settings.</li>
+  <li>Change your advertising consent at any time as described in section 8, and reset or delete your advertising ID as described in section 9.</li>
+</ul>
+<p>Depending on where you live (for example under the GDPR in the EEA and UK, or the CCPA/CPRA in California), you may have rights of access, correction, deletion, objection, or portability regarding data held by the advertising provider. Because that data is held by Google rather than by us, please exercise those rights through the links in section 10, or contact us at the address in section 15 and we will help where we can. We do not sell your personal information.</p>
+<p>Withdrawing consent does not affect the lawfulness of processing carried out before the withdrawal. If you are in the EEA, the UK, or Switzerland, you also have the right to lodge a complaint with the data protection supervisory authority of your country of residence or work.</p>
+
+<h2>13. Security</h2>
+<p>We take appropriate measures to prevent unauthorized access, loss, alteration, or leakage of the information handled by the App. Your count never leaves your device, and communication with the advertising services uses encrypted connections.</p>
+
+<h2>14. Changes to This Policy</h2>
+<p>This Policy may be revised due to changes in laws or in the App&rsquo;s features. The revised policy takes effect once posted on this page, and the date below is updated at the same time. Where a change materially affects how your information is handled, we will say so clearly at the top of this page and, where the law requires it, ask for your consent again, for advertising through the consent message in the App.</p>
+
+<h2>15. Contact</h2>
+<ul>
+  <li>Developer: Ap Runner</li>
+  <li>Email: <a href="mailto:weblab.100@gmail.com">weblab.100@gmail.com</a></li>
+</ul>
+
+<footer>Effective date: November 12, 2026<br>Last updated: November 12, 2026</footer>
+
+</section>
+
+<!-- ============================== 简体中文 ============================== -->
+<section class="card" id="lang-zh-Hans" lang="zh-Hans">
+
+<h1>隐私政策</h1>
+<p class="subtitle">移动应用「正字计数器」</p>
+
+<div class="ident">
+  <dl>
+    <dt>应用名称</dt><dd>正字计数器</dd>
+    <dt>开发者名称</dt><dd>Ap Runner</dd>
+  </dl>
+</div>
+
+<p>Ap Runner（以下简称“我们”）为 Android 和 iOS 提供移动应用「正字计数器」（以下简称“本应用”）。本应用是一款计数器：点击按钮即可计数，并以“正”字的笔画显示次数。本隐私政策说明本应用（包括其中显示的广告）如何处理信息。</p>
+
+<h2>1. 概要</h2>
+<ul>
+  <li><strong>您的计数不会离开您的设备。</strong>计数仅保存在设备内存中，也不会被存储。我们没有接收本应用数据的服务器。</li>
+  <li>本应用没有账号注册和登录功能，不收集您的姓名、电子邮件地址、电话号码或住址。</li>
+  <li>广告由 Google AdMob 投放，可能会收集广告 ID 和设备信息。广告服务不会获取您的计数。</li>
+  <li>本应用完全免费，没有应用内购买。</li>
+</ul>
+
+<h2>2. 我们收集的信息</h2>
+<h3>可识别个人身份的信息</h3>
+<p>本应用不收集姓名、住址、电话号码、电子邮件地址等可识别个人身份的信息。本应用没有账号注册和登录功能，我们也不运营接收本应用数据的服务器。</p>
+<h3>为广告而收集的信息</h3>
+<p>本应用使用 Google AdMob 显示广告。AdMob 由 Google 运营，在投放广告时可能自动收集以下信息。这些数据由 Google 而非我们收集和处理，我们不会以可识别您身份的形式获得这些数据。</p>
+<ul>
+  <li>广告 ID（Android 广告 ID）</li>
+  <li>设备信息（操作系统版本、设备型号、语言设置）</li>
+  <li>根据 IP 地址推断的大致位置</li>
+  <li>广告展示次数、点击等互动数据</li>
+</ul>
+<p>本应用不会请求访问您的相机、照片、位置、通讯录、麦克风等设备功能或数据。</p>
+
+<h2>3. 关于计数</h2>
+<p>您计数的数字和“正”字记录仅在使用本应用期间保存在设备内存中。它们不会被存储到设备上，完全退出本应用后会归零，也不会被发送到任何地方。</p>
+
+<h2>4. 存储在设备上的数据</h2>
+<p>以下信息仅存储在您的设备上，不会发送到我们的服务器或任何第三方，卸载本应用后即被删除：</p>
+<ul>
+  <li>主题设置（深色模式／浅色模式）</li>
+  <li>本应用的启动次数，以及增加或减少计数的操作次数（用于决定何时显示评分邀请，不保存计数本身）</li>
+  <li>是否已显示评分邀请，以及选择“稍后”的次数和时间</li>
+  <li>打开设置页面的次数（以便每隔几次才显示一次全屏广告）</li>
+  <li>您对广告的同意选择（由 Google 的 User Messaging Platform 存储）</li>
+</ul>
+
+<h2>5. 网络使用</h2>
+<p>计数功能可完全离线使用。本应用仅在以下情况下连接互联网：</p>
+<ul>
+  <li><strong>广告。</strong>由 Google AdMob 和 Google 的 User Messaging Platform 进行的通信（见第 2 条和第 8 条）。在加载全屏广告前，本应用会在设备上检查是否已连接网络，此检查不会发送任何信息。</li>
+  <li><strong>您点击的链接。</strong>打开本政策等链接时，网址会交给您的浏览器，之后适用浏览器自身的隐私政策。</li>
+</ul>
+
+<h2>6. 使用目的</h2>
+<ul>
+  <li>用于计数并以“正”字显示</li>
+  <li>用于记住您的主题设置</li>
+  <li>用于在合适的时机仅显示一次评分邀请</li>
+  <li>用于在每打开几次设置页面时才显示一次全屏广告</li>
+  <li>用于在本应用内投放和显示广告</li>
+  <li>用于衡量广告效果和检测无效点击</li>
+  <li>用于回复您的咨询</li>
+  <li>用于提高本应用质量和修复缺陷</li>
+</ul>
+
+<h2>7. 商店评分邀请</h2>
+<p>本应用可能会通过操作系统提供的评分功能（Google Play In-App Review 或 Apple SKStoreReviewController）邀请您在商店中评分。是否已显示邀请仅记录在您的设备上，我们不会以可识别您身份的形式获得您的评分或评价内容。</p>
+
+<h2>8. 广告与同意</h2>
+<p>对于欧洲经济区（EEA）、英国和瑞士的用户，以及法律另有要求的地区，本应用会在首次启动时通过 Google 的 User Messaging Platform（UMP）征求您对广告的同意。如需更改选择，请在设备设置中清除本应用的数据或重新安装本应用，下次启动时将再次显示同意画面。</p>
+<p>在 iOS 上，本应用不会通过 App Tracking Transparency 请求跟踪许可。因此不会使用 Apple 的广告标识符（IDFA），也不会显示基于 IDFA 的个性化广告。</p>
+<p>即使您拒绝或撤回同意，也可以使用全部计数功能。</p>
+<h3>数据控制者</h3>
+<p>对于本应用自身处理的有限信息，控制者为 Ap Runner（联系方式见第 15 条）。对于 Google 通过 AdMob 和 User Messaging Platform 收集的数据，Google 作为独立的控制者，依据 <a href="https://policies.google.com/privacy?hl=zh-CN" target="_blank" rel="noopener">Google 隐私权政策</a>和 <a href="https://business.safety.google/adscontrollerterms/" target="_blank" rel="noopener">Google 广告控制者间数据保护条款</a>进行处理。</p>
+<h3>法律依据（EEA、英国和瑞士）</h3>
+<ul>
+  <li><strong>同意</strong>（GDPR 第 6 条第 1 款 (a) 项）：为广告目的在设备上存储和读取信息，以及包括使用广告 ID 在内的个性化广告。</li>
+  <li><strong>正当利益</strong>（GDPR 第 6 条第 1 款 (f) 项）：在未获同意时显示非个性化或受限广告、衡量广告投放、检测欺诈和无效点击。我们的利益在于让本应用保持免费。您可以随时联系我们提出异议。</li>
+  <li>计数以及在设备上保存设置均在设备内完成，我们不会因此处理任何个人数据。</li>
+</ul>
+<h3>跨境传输</h3>
+<p>Google 可能会在您所在国家/地区以外（包括美国）处理广告数据。Google 依据欧盟–美国数据隐私框架（包括其英国和瑞士扩展）以及欧盟委员会的标准合同条款来保护此类传输。</p>
+<h3>保存期限</h3>
+<p>存储在设备上的数据（第 4 条）会一直保留，直到您删除或卸载本应用。Google 收集的广告数据依据 <a href="https://policies.google.com/technologies/retention?hl=zh-CN" target="_blank" rel="noopener">Google 的数据保留政策</a>保存。您发给我们的电子邮件仅在答复所需期间内保存。</p>
+
+<h2>9. 停用广告 ID</h2>
+<ul>
+  <li>Android：设置 &rarr; 隐私 &rarr; 广告 &rarr;“删除广告 ID”或“重置广告 ID”（菜单名称因设备而异）</li>
+  <li>iOS：本应用不使用 IDFA。如需对其他应用也加以限制，请前往 设置 &rarr; 隐私与安全性 &rarr; 跟踪，关闭“允许 App 请求跟踪”。</li>
+</ul>
+
+<h2>10. 向第三方提供</h2>
+<p>除法律要求披露的情况外，我们不会向第三方提供用户信息。本应用使用以下第三方服务，其数据处理方式请参阅各自的政策：</p>
+<ul>
+  <li>Google AdMob / User Messaging Platform（广告和同意）：<a href="https://policies.google.com/privacy?hl=zh-CN" target="_blank" rel="noopener">https://policies.google.com/privacy</a></li>
+  <li>Google 如何使用来自使用其服务的网站或应用的信息：<a href="https://policies.google.com/technologies/partner-sites?hl=zh-CN" target="_blank" rel="noopener">https://policies.google.com/technologies/partner-sites</a></li>
+</ul>
+
+<h2>11. 儿童隐私</h2>
+<p>本应用并非面向 13 岁以下儿童（如 EEA 部分地区等当地法律规定了更高年龄的，则为该年龄以下），我们不会故意收集此类儿童的个人信息。如果我们得知已收集此类信息，将采取措施予以删除。如果您认为有儿童向我们提供了个人信息，请通过第 15 条的联系方式告知我们。</p>
+
+<h2>12. 您的权利</h2>
+<p>由于本应用没有账号，也没有我们的服务器，我们并不持有可应您的请求查询、导出或删除的个人数据。本应用处理的一切信息都由您自己掌控：</p>
+<ul>
+  <li>卸载本应用或在设备设置中清除其数据，即可删除本应用存储在设备上的全部信息。</li>
+  <li>您可以随时按第 8 条所述更改广告同意，并按第 9 条所述重置或删除广告 ID。</li>
+</ul>
+<p>根据您所在的地区（例如 EEA 和英国的 GDPR、美国加利福尼亚州的 CCPA/CPRA），您可能对广告服务商持有的数据享有访问、更正、删除、反对或可携带等权利。这些数据由 Google 而非我们持有，请通过第 10 条的链接行使这些权利，或通过第 15 条的联系方式与我们联系，我们将尽力提供帮助。我们不会出售您的个人信息。</p>
+<p>撤回同意不影响撤回前所进行处理的合法性。如果您位于 EEA、英国或瑞士，您还有权向您居住或工作所在国家的数据保护监管机构投诉。</p>
+
+<h2>13. 安全措施</h2>
+<p>我们采取适当措施，防止本应用处理的信息遭到未经授权的访问、丢失、篡改或泄露。您的计数不会离开设备，与广告服务的通信均使用加密连接。</p>
+
+<h2>14. 本政策的变更</h2>
+<p>本政策可能因法律或本应用功能的变更而修订。修订后的政策在本页面发布时生效，下方日期也会同时更新。如变更对信息处理方式有重大影响，我们会在本页面顶部明确说明；在法律要求时，将通过本应用内的同意画面就广告再次征求您的同意。</p>
+
+<h2>15. 联系我们</h2>
+<ul>
+  <li>开发者：Ap Runner</li>
+  <li>电子邮件：<a href="mailto:weblab.100@gmail.com">weblab.100@gmail.com</a></li>
+</ul>
+
+<footer>生效日期：2026 年 11 月 12 日<br>最后更新：2026 年 11 月 12 日</footer>
+
+</section>
+
+<!-- ============================== 繁體中文 ============================== -->
+<section class="card" id="lang-zh-Hant" lang="zh-Hant">
+
+<h1>隱私政策</h1>
+<p class="subtitle">行動應用程式「正字計數器」</p>
+
+<div class="ident">
+  <dl>
+    <dt>應用程式名稱</dt><dd>正字計數器</dd>
+    <dt>開發者名稱</dt><dd>Ap Runner</dd>
+  </dl>
+</div>
+
+<p>Ap Runner（以下簡稱「我們」）為 Android 和 iOS 提供行動應用程式「正字計數器」（以下簡稱「本應用程式」）。本應用程式是一款計數器：點擊按鈕即可計數，並以「正」字的筆畫顯示次數。本隱私政策說明本應用程式（包括其中顯示的廣告）如何處理資訊。</p>
+
+<h2>1. 概要</h2>
+<ul>
+  <li><strong>您的計數不會離開您的裝置。</strong>計數僅保存在裝置記憶體中，也不會被儲存。我們沒有接收本應用程式資料的伺服器。</li>
+  <li>本應用程式沒有帳號註冊和登入功能，不收集您的姓名、電子郵件地址、電話號碼或地址。</li>
+  <li>廣告由 Google AdMob 投放，可能會收集廣告 ID 和裝置資訊。廣告服務不會取得您的計數。</li>
+  <li>本應用程式完全免費，沒有應用程式內購買。</li>
+</ul>
+
+<h2>2. 我們收集的資訊</h2>
+<h3>可識別個人身分的資訊</h3>
+<p>本應用程式不收集姓名、地址、電話號碼、電子郵件地址等可識別個人身分的資訊。本應用程式沒有帳號註冊和登入功能，我們也不營運接收本應用程式資料的伺服器。</p>
+<h3>為廣告而收集的資訊</h3>
+<p>本應用程式使用 Google AdMob 顯示廣告。AdMob 由 Google 營運，在投放廣告時可能自動收集以下資訊。這些資料由 Google 而非我們收集和處理，我們不會以可識別您身分的形式取得這些資料。</p>
+<ul>
+  <li>廣告 ID（Android 廣告 ID）</li>
+  <li>裝置資訊（作業系統版本、裝置型號、語言設定）</li>
+  <li>根據 IP 位址推斷的大致位置</li>
+  <li>廣告曝光次數、點擊等互動資料</li>
+</ul>
+<p>本應用程式不會要求存取您的相機、相片、位置、聯絡人、麥克風等裝置功能或資料。</p>
+
+<h2>3. 關於計數</h2>
+<p>您計數的數字和「正」字記錄僅在使用本應用程式期間保存在裝置記憶體中。它們不會被儲存到裝置上，完全關閉本應用程式後會歸零，也不會被傳送到任何地方。</p>
+
+<h2>4. 儲存在裝置上的資料</h2>
+<p>以下資訊僅儲存在您的裝置上，不會傳送到我們的伺服器或任何第三方，解除安裝本應用程式後即被刪除：</p>
+<ul>
+  <li>主題設定（深色模式／淺色模式）</li>
+  <li>本應用程式的啟動次數，以及增加或減少計數的操作次數（用於決定何時顯示評分邀請，不儲存計數本身）</li>
+  <li>是否已顯示評分邀請，以及選擇「稍後」的次數和時間</li>
+  <li>開啟設定頁面的次數（以便每隔幾次才顯示一次全螢幕廣告）</li>
+  <li>您對廣告的同意選擇（由 Google 的 User Messaging Platform 儲存）</li>
+</ul>
+
+<h2>5. 網路使用</h2>
+<p>計數功能可完全離線使用。本應用程式僅在以下情況下連線至網際網路：</p>
+<ul>
+  <li><strong>廣告。</strong>由 Google AdMob 和 Google 的 User Messaging Platform 進行的通訊（見第 2 條和第 8 條）。在載入全螢幕廣告前，本應用程式會在裝置上檢查是否已連線至網路，此檢查不會傳送任何資訊。</li>
+  <li><strong>您點擊的連結。</strong>開啟本政策等連結時，網址會交給您的瀏覽器，之後適用瀏覽器本身的隱私政策。</li>
+</ul>
+
+<h2>6. 使用目的</h2>
+<ul>
+  <li>用於計數並以「正」字顯示</li>
+  <li>用於記住您的主題設定</li>
+  <li>用於在適當的時機僅顯示一次評分邀請</li>
+  <li>用於在每開啟幾次設定頁面時才顯示一次全螢幕廣告</li>
+  <li>用於在本應用程式內投放和顯示廣告</li>
+  <li>用於衡量廣告成效和偵測無效點擊</li>
+  <li>用於回覆您的詢問</li>
+  <li>用於提升本應用程式品質和修正缺陷</li>
+</ul>
+
+<h2>7. 商店評分邀請</h2>
+<p>本應用程式可能會透過作業系統提供的評分功能（Google Play In-App Review 或 Apple SKStoreReviewController）邀請您在商店中評分。是否已顯示邀請僅記錄在您的裝置上，我們不會以可識別您身分的形式取得您的評分或評論內容。</p>
+
+<h2>8. 廣告與同意</h2>
+<p>對於歐洲經濟區（EEA）、英國和瑞士的使用者，以及法律另有要求的地區，本應用程式會在首次啟動時透過 Google 的 User Messaging Platform（UMP）徵求您對廣告的同意。如需變更選擇，請在裝置設定中清除本應用程式的資料或重新安裝本應用程式，下次啟動時將再次顯示同意畫面。</p>
+<p>在 iOS 上，本應用程式不會透過 App Tracking Transparency 要求追蹤許可。因此不會使用 Apple 的廣告識別碼（IDFA），也不會顯示基於 IDFA 的個人化廣告。</p>
+<p>即使您拒絕或撤回同意，也可以使用全部計數功能。</p>
+<h3>資料控管者</h3>
+<p>對於本應用程式本身處理的有限資訊，控管者為 Ap Runner（聯絡方式見第 15 條）。對於 Google 透過 AdMob 和 User Messaging Platform 收集的資料，Google 作為獨立的控管者，依據 <a href="https://policies.google.com/privacy?hl=zh-TW" target="_blank" rel="noopener">Google 隱私權政策</a>和 <a href="https://business.safety.google/adscontrollerterms/" target="_blank" rel="noopener">Google 廣告控管者間資料保護條款</a>進行處理。</p>
+<h3>法律依據（EEA、英國和瑞士）</h3>
+<ul>
+  <li><strong>同意</strong>（GDPR 第 6 條第 1 項 (a) 款）：為廣告目的在裝置上儲存和讀取資訊，以及包括使用廣告 ID 在內的個人化廣告。</li>
+  <li><strong>正當利益</strong>（GDPR 第 6 條第 1 項 (f) 款）：在未獲同意時顯示非個人化或受限廣告、衡量廣告投放、偵測詐欺和無效點擊。我們的利益在於讓本應用程式維持免費。您可以隨時聯絡我們提出異議。</li>
+  <li>計數以及在裝置上儲存設定均在裝置內完成，我們不會因此處理任何個人資料。</li>
+</ul>
+<h3>跨境傳輸</h3>
+<p>Google 可能會在您所在國家／地區以外（包括美國）處理廣告資料。Google 依據歐盟–美國資料隱私框架（包括其英國和瑞士延伸）以及歐盟執委會的標準契約條款來保護此類傳輸。</p>
+<h3>保存期間</h3>
+<p>儲存在裝置上的資料（第 4 條）會一直保留，直到您刪除或解除安裝本應用程式。Google 收集的廣告資料依據 <a href="https://policies.google.com/technologies/retention?hl=zh-TW" target="_blank" rel="noopener">Google 的資料保留政策</a>保存。您寄給我們的電子郵件僅在回覆所需期間內保存。</p>
+
+<h2>9. 停用廣告 ID</h2>
+<ul>
+  <li>Android：設定 &rarr; 隱私權 &rarr; 廣告 &rarr;「刪除廣告 ID」或「重設廣告 ID」（選單名稱因裝置而異）</li>
+  <li>iOS：本應用程式不使用 IDFA。如需對其他應用程式也加以限制，請前往 設定 &rarr; 隱私權與安全性 &rarr; 追蹤，關閉「允許 App 要求追蹤」。</li>
+</ul>
+
+<h2>10. 向第三方提供</h2>
+<p>除法律要求揭露的情況外，我們不會向第三方提供使用者資訊。本應用程式使用以下第三方服務，其資料處理方式請參閱各自的政策：</p>
+<ul>
+  <li>Google AdMob / User Messaging Platform（廣告和同意）：<a href="https://policies.google.com/privacy?hl=zh-TW" target="_blank" rel="noopener">https://policies.google.com/privacy</a></li>
+  <li>Google 如何使用來自使用其服務的網站或應用程式的資訊：<a href="https://policies.google.com/technologies/partner-sites?hl=zh-TW" target="_blank" rel="noopener">https://policies.google.com/technologies/partner-sites</a></li>
+</ul>
+
+<h2>11. 兒童隱私</h2>
+<p>本應用程式並非以 13 歲以下兒童為對象（如 EEA 部分地區等當地法律規定了更高年齡者，則為該年齡以下），我們不會故意收集此類兒童的個人資訊。如果我們得知已收集此類資訊，將採取措施予以刪除。如果您認為有兒童向我們提供了個人資訊，請透過第 15 條的聯絡方式告知我們。</p>
+
+<h2>12. 您的權利</h2>
+<p>由於本應用程式沒有帳號，也沒有我們的伺服器，我們並未持有可應您的要求查詢、匯出或刪除的個人資料。本應用程式處理的一切資訊都由您自己掌控：</p>
+<ul>
+  <li>解除安裝本應用程式或在裝置設定中清除其資料，即可刪除本應用程式儲存在裝置上的全部資訊。</li>
+  <li>您可以隨時依第 8 條所述變更廣告同意，並依第 9 條所述重設或刪除廣告 ID。</li>
+</ul>
+<p>依據您所在的地區（例如 EEA 和英國的 GDPR、美國加州的 CCPA/CPRA），您可能對廣告服務商持有的資料享有存取、更正、刪除、反對或可攜等權利。這些資料由 Google 而非我們持有，請透過第 10 條的連結行使這些權利，或透過第 15 條的聯絡方式與我們聯絡，我們將盡力提供協助。我們不會出售您的個人資訊。</p>
+<p>撤回同意不影響撤回前所進行處理的合法性。如果您位於 EEA、英國或瑞士，您也有權向您居住或工作所在國家的資料保護監管機關提出申訴。</p>
+
+<h2>13. 安全措施</h2>
+<p>我們採取適當措施，防止本應用程式處理的資訊遭到未經授權的存取、遺失、竄改或洩漏。您的計數不會離開裝置，與廣告服務的通訊均使用加密連線。</p>
+
+<h2>14. 本政策的變更</h2>
+<p>本政策可能因法律或本應用程式功能的變更而修訂。修訂後的政策在本頁面發布時生效，下方日期也會同時更新。如變更對資訊處理方式有重大影響，我們會在本頁面頂部明確說明；在法律要求時，將透過本應用程式內的同意畫面就廣告再次徵求您的同意。</p>
+
+<h2>15. 聯絡我們</h2>
+<ul>
+  <li>開發者：Ap Runner</li>
+  <li>電子郵件：<a href="mailto:weblab.100@gmail.com">weblab.100@gmail.com</a></li>
+</ul>
+
+<footer>生效日期：2026 年 11 月 12 日<br>最後更新：2026 年 11 月 12 日</footer>
+
+</section>
+
+</div>
+<script>
+(function () {
+  var langs = ['ja', 'en', 'zh-Hans', 'zh-Hant'];
+  function pick() {
+    var h = decodeURIComponent(location.hash.slice(1));
+    if (langs.indexOf(h) >= 0) return h;
+    var q = new URLSearchParams(location.search).get('lang');
+    if (langs.indexOf(q) >= 0) return q;
+    var n = (navigator.language || 'ja').toLowerCase();
+    if (n.indexOf('zh') === 0) {
+      return /hant|-tw|-hk|-mo/.test(n) ? 'zh-Hant' : 'zh-Hans';
+    }
+    if (n.indexOf('ja') === 0) return 'ja';
+    return 'en';
+  }
+  function show(lang) {
+    langs.forEach(function (l) {
+      document.getElementById('lang-' + l).hidden = (l !== lang);
+    });
+    document.querySelectorAll('.lang-nav a').forEach(function (a) {
+      a.setAttribute('aria-current', a.getAttribute('data-lang') === lang ? 'true' : 'false');
+    });
+    document.documentElement.lang = lang;
+    window.scrollTo(0, 0);
+  }
+  document.documentElement.classList.add('js');
+  document.querySelectorAll('.lang-nav a').forEach(function (a) {
+    a.addEventListener('click', function (e) {
+      e.preventDefault();
+      var l = a.getAttribute('data-lang');
+      history.replaceState(null, '', '#' + l);
+      show(l);
+    });
+  });
+  window.addEventListener('hashchange', function () { show(pick()); });
+  show(pick());
+})();
+</script>
+</body>
+</html>
